@@ -15,5 +15,10 @@ var AddressBook = angular.module('AddressBook', []);
                 $scope.sortCol = sortCol;
             }
         };
+        $scope.isSortedBy = function(sortCol) {
+            console.log($scope.sortCol);
+            console.log(sortCol);
+            return $scope.sortCol == sortCol;
+        }
 });
 

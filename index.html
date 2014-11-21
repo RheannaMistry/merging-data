@@ -36,7 +36,7 @@
     <section>
         <ul class="cards">
            <li class="card" ng-repeat="employee in employees | filter : searchString | orderBy : sortCol">
-            <img ng-src="{{employee.picUrl}}" alt="picture of {{employee.firstName}} {{employee.lastName}}"/>
+            <img ng-src= "{{employee.picUrl}}" alt="picture of {{employee.firstName}} {{employee.lastName}}"/>
                 <div class="details">
                     <h2 class="name">{{employee.firstName}} {{employee.lastName}}</h2>
                     <p class="title">{{employee.title}}</p>
